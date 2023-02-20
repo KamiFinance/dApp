@@ -2,4 +2,4 @@
 
 🚧 👷 This Site is under construction. 👷🚧
 
-Join our [Website](https://kami.finance) for more information!
+Join our [Website](http://kami.finance/) for more information!
