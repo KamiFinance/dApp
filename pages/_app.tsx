@@ -28,11 +28,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Artchain Circle Marketplace List Your NFTs For Sale, Accept Bids, and Buy NFTs"
+          content="Artchain Circle dApp is the first of its kind, a unique and innovative collective that builds bridges between physical art and blockchain. "
         />
         <meta
           name="keywords"
-          content="Artchain Circle, Marketplace, NFT Marketplace , NFT Auction "
+          content="Artchain Circle, Buy BEP20, NFC Marketplace, NFT Auction, Dao, "
         />
       </Head>
       <Component {...pageProps} />
