@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           name="keywords"
-          content="Artchain Circle, Buy BEP20, NFC Marketplace, NFT Auction, Dao, "
+          content="Artchain Circle, Buy BEP20, NFC Marketplace, NFT Auction, Dao "
         />
       </Head>
       <Component {...pageProps} />
