@@ -1,5 +1,5 @@
-# NFT Marketplace
+# dApp
 
-🚧 👷 This template is under construction. 👷🚧
+🚧 👷 This Site is under construction. 👷🚧
 
-Join our [Discord](https://discord.com/invite/thirdweb) for more information!
+Join our [Website](https://kami.finance) for more information!
