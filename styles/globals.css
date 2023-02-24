@@ -51,13 +51,13 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-color: rgb(255, 255, 255);
+  border-color: transparent !important;
   color: rgb(243, 246, 249) !important;
-  background: #4D6EA8 !important;
+  background: radial-gradient(#4f7ae6e7 10%, #9ea7bd 100%) !important;
   height: 50px;
   width: 220px;
   border: 1px solid transparent;
-  border-radius: 8px;
+  border-radius: 36px !important;
   padding: 6px 16px;
   font-weight: 600;
   font-family: inherit;
