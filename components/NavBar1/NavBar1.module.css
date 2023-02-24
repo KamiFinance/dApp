@@ -128,12 +128,7 @@
         display: none;
     }
 
-    .NavBar_box_right{
-        display: flex;
-        top: 0.65rem;
-        left: 1rem;
-        right: 2rem;
-    }
+   
     .NavBar_box_right button{
         display: flex;
         align-items: center;
@@ -156,7 +151,7 @@
         margin-top: 23px;
         margin-right: 3rem;
         position: fixed;
-        right: 12rem;
+        right: 4rem;
         
         top: 0rem;
     }
@@ -207,7 +202,7 @@
         z-index: 111111111;
         margin-top: 20px;
         position: fixed;
-        right: 12rem;
+        right: 2rem;
         
         top: 0rem;
     }
