@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {  useAddress,  } from "@thirdweb-dev/react";
+import {  useAddress, ConnectWallet } from "@thirdweb-dev/react";
 
 //INTERNAL IMPORT
 import Style from "./TokenList.module.css";
@@ -56,7 +56,9 @@ const TokenList = ({ tokenDate, setopenTokenBox }) => {
              DAO Voting 
           </Link>
           <p></p>
-         
+          
+          
+
           </div>
           <p></p>
           <div className={Style.mainButton3}>
