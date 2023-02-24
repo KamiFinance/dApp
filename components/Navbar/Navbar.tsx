@@ -8,6 +8,7 @@ export function Navbar() {
   const address = useAddress();
 
   return (
+    
     <div className={styles.navContainer}>
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
@@ -21,7 +22,8 @@ export function Navbar() {
           </Link>
 
           <div className={styles.navMiddle}>
-            <Link href="/market" className={styles.link}>
+            
+          <Link href="/market" className={styles.link}>
               Marketplace
             </Link>
             <Link href="/membership" className={styles.link}>
@@ -39,12 +41,15 @@ export function Navbar() {
             <Link href="/BuyARTCC" className={styles.link}>
               Buy ARTCC
             </Link>
+          
           </div>
+          
         </div>
 
         <div className={styles.navRight}>
+
           <div className={styles.navConnect}>
-            <ConnectWallet />
+          <ConnectWallet />
           </div>
           {address && (
             <Link className={styles.link1} href={`/profile/${address}`}>
@@ -58,6 +63,7 @@ export function Navbar() {
             </Link>
           )}
         </div>
+
       </nav>
     </div>
   );
