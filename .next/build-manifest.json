@@ -1,0 +1,153 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/ARsacrpscJdUw04bTnDFk/_buildManifest.js",
+    "static/ARsacrpscJdUw04bTnDFk/_ssgManifest.js"
+  ],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/26de583b52d7c231.css",
+      "static/chunks/pages/index-18d3e52af7cb1baf.js"
+    ],
+    "/BlackVote": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/b6247dc2648c44b9.css",
+      "static/chunks/pages/BlackVote-e1f93461f4801855.js"
+    ],
+    "/BuyARTCC": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/3e8a4905c12c7469.css",
+      "static/chunks/pages/BuyARTCC-a29e2edbd453497a.js"
+    ],
+    "/Dao": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/b6247dc2648c44b9.css",
+      "static/chunks/pages/Dao-2b576c247ce759df.js"
+    ],
+    "/DiamantVote": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/b6247dc2648c44b9.css",
+      "static/chunks/pages/DiamantVote-365d0d5536cfae69.js"
+    ],
+    "/GoldVote": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/b6247dc2648c44b9.css",
+      "static/chunks/pages/GoldVote-a433b4d8a613620b.js"
+    ],
+    "/PlatinumVote": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/b6247dc2648c44b9.css",
+      "static/chunks/pages/PlatinumVote-edfd2a3df79bc55e.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/css/3a8e0e07cf5b0e7e.css",
+      "static/chunks/pages/_app-1dc227f8782b66d5.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/pages/_error-02cc11fd74b4e5ff.js"
+    ],
+    "/create": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/css/ccc2ae301c0a8653.css",
+      "static/chunks/pages/create-b3b27d4410fe49f0.js"
+    ],
+    "/listing/[listingId]": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/ccc2ae301c0a8653.css",
+      "static/chunks/pages/listing/[listingId]-80016b7ac05edd4a.js"
+    ],
+    "/market": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/ccc2ae301c0a8653.css",
+      "static/chunks/pages/market-38476e35c2c9894e.js"
+    ],
+    "/membership": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/ea39c3c2accb5e42.css",
+      "static/chunks/pages/membership-59f78791ffa0e7a3.js"
+    ],
+    "/profile/[address]": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/css/30ecb270b9b8ea46.css",
+      "static/chunks/pages/profile/[address]-d1817164e35c2900.js"
+    ],
+    "/stake": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/a03c0279fda46564.css",
+      "static/chunks/pages/stake-0807e39f362b4df8.js"
+    ],
+    "/stakeNFT": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/2d2ca76d00ce2908.css",
+      "static/chunks/pages/stakeNFT-0f90d42e1a635a1d.js"
+    ],
+    "/token/[contractAddress]/[tokenId]": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/css/605a696f6ce613a2.css",
+      "static/chunks/pages/token/[contractAddress]/[tokenId]-5299a3d126727839.js"
+    ],
+    "/voting": [
+      "static/chunks/webpack-9f29423c550d5bfa.js",
+      "static/chunks/framework-ce84985cd166733a.js",
+      "static/chunks/main-4da6185358dbe7bf.js",
+      "static/chunks/5814-8055ce3f82165656.js",
+      "static/css/b6247dc2648c44b9.css",
+      "static/chunks/pages/voting-3184d5847b7f4d04.js"
+    ]
+  },
+  "ampFirstPages": []
+}

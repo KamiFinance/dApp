@@ -1,0 +1,22 @@
+{
+  "/_app": "pages/_app.js",
+  "/BlackVote": "pages/BlackVote.html",
+  "/BuyARTCC": "pages/BuyARTCC.html",
+  "/Dao": "pages/Dao.html",
+  "/DiamantVote": "pages/DiamantVote.html",
+  "/GoldVote": "pages/GoldVote.html",
+  "/PlatinumVote": "pages/PlatinumVote.html",
+  "/create": "pages/create.html",
+  "/": "pages/index.html",
+  "/listing/[listingId]": "pages/listing/[listingId].html",
+  "/market": "pages/market.html",
+  "/membership": "pages/membership.html",
+  "/profile/[address]": "pages/profile/[address].html",
+  "/stake": "pages/stake.html",
+  "/stakeNFT": "pages/stakeNFT.html",
+  "/voting": "pages/voting.html",
+  "/_error": "pages/_error.js",
+  "/token/[contractAddress]/[tokenId]": "pages/token/[contractAddress]/[tokenId].js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
