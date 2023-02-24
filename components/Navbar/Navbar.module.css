@@ -42,6 +42,7 @@
   gap: 24px;
 }
 
+
 .link {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
@@ -49,6 +50,7 @@
   letter-spacing: 0.2px;
   line-height: 16px;
   transition: color 0.3s ease-in-out;
+  justify-content: space-between;
 }
 
 .link:hover {
@@ -92,9 +94,25 @@
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
+
 /* Sreens less than 720px */
-@media (max-width: 500px) {
-  .navConnect {
-    display: none !important;
+@media (max-width: 700px) {
+  .navMiddle {
+    display: flex;
+    margin-left: 12px;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+  
+}
+
+@media only screen and (max-width: 70em) {
+  .navMiddle {
+    display: none;
+    margin-left: 12px;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
   }
 }
