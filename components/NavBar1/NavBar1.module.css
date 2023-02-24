@@ -1,0 +1,215 @@
+.NavBar{
+    width: 90%;
+    margin:  2rem auto;
+}
+
+.NavBar_box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.NavBar_box_left{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    
+    background-color: transparent !important ;
+    margin-left: 7rem;
+    margin-top: -0.7rem;
+    
+}
+
+.NavBar_box_left_menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+    position: fixed;
+    left: 8rem;
+    background-color: transparent !important;
+}
+.NavBar_box_left_menu_item{
+    font-size: 1.2rem;
+    color: rgba(255, 0, 221);
+    cursor: pointer;
+    
+}
+
+.NavBar_box_middle{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 11111111;
+    position: absolute;
+    left: .5rem;
+    top: 3.5rem;
+    
+}
+
+.NavBar_box_middle_search{
+    font-size: 1.2rem;
+    color: rgba(255, 0, 221);
+    cursor: pointer;
+    gap: 1rem;
+    
+   
+    
+}
+
+.NavBar_box_middle input{
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.NavBar_box_middle_search_img {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    right: 1rem;
+    left: 1rem;
+    
+}
+
+.NavBar_box_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 111111111;
+    margin-top: -13px;
+    position:relative;
+    margin: auto left;
+    
+    
+    top: 0rem;
+}
+
+.NavBar_box_right button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: transparent !important;
+    padding: 1px 1px;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.NavBar_box_left button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: transparent !important;
+    padding: 1px 1px;
+    border: none;
+    
+    
+    
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 70em) {
+    .NavBar{
+        width: 90%;
+    }
+    .NavBar_box{
+        grid-template-columns: .5fr 1fr;
+    }
+
+    .NavBar_box_middle{
+        display: flex;
+    }
+    .NavBar_box_left_menu{
+        display: none;
+    }
+
+    .NavBar_box_right{
+        display: flex;
+        top: 0.65rem;
+        left: 1rem;
+        right: 2rem;
+    }
+    .NavBar_box_right button{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background-color: transparent !important;
+        padding: 1px 1px;
+        border: none;
+        
+        
+        
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    .NavBar_box_right{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+        z-index: 111111111;
+        margin-top: 23px;
+        margin-right: 3rem;
+        position: fixed;
+        right: 12rem;
+        
+        top: 0rem;
+    }
+
+}
+
+@media only screen and (min-width: 70em) and (max-width:850em) {
+    .NavBar{
+        width: 90%;
+    }
+    .NavBar_box{
+        grid-template-columns: .5fr 1fr;
+    }
+
+    .NavBar_box_middle{
+        display: flex;
+    }
+    .NavBar_box_left_menu{
+        display: none;
+    }
+
+    .NavBar_box_right{
+        display: flex;
+        top: 0.65rem;
+        left: 1rem;
+        right: 4rem;
+        margin-right: 3.1rem;
+        margin-top: 1.4rem !important;
+    }
+    .NavBar_box_right button{
+        display: none;
+        align-items: center;
+        gap: 1rem;
+        background-color: transparent !important;
+        padding: 1px 1px;
+        border: none;
+        
+        
+        
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+    .NavBar_box_right{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+        z-index: 111111111;
+        margin-top: 20px;
+        position: fixed;
+        right: 12rem;
+        
+        top: 0rem;
+    }
+}
+
