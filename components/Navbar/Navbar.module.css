@@ -110,9 +110,17 @@
 @media only screen and (max-width: 70em) {
   .navMiddle {
     display: none;
-    margin-left: 12px;
+    margin-left: 1px;
     flex-direction: row;
     align-items: center;
     gap: 4px;
+  }
+  .navConnect{
+    display: none;
+  }
+  .profileImage {
+    margin-top: 6px;
+    margin-right: 22px;
+    transition: all 0.15s ease-in-out;
   }
 }
