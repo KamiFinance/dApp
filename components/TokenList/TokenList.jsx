@@ -55,8 +55,14 @@ const TokenList = ({ tokenDate, setopenTokenBox }) => {
         <Link href="/voting" passHref role="button">
              DAO Voting 
           </Link>
+          <p></p>
+         
           </div>
-
+          <p></p>
+          <div className={Style.mainButton3}>
+          <ConnectWallet  />
+          </div>
+          
           </div>
           
        
