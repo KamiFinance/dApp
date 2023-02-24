@@ -38,7 +38,7 @@ const NavBar = () => {
         {/* //RIGHT SECTION */}
         
         <div className={Style.NavBar_box_right}>
-        <button onClick={() => setopenTokenBox(true)} height={30} width={30} ><Image src={images.menu1}  height={45} width={45} /></button>
+        <button onClick={() => setopenTokenBox(true)} height={30} width={30} ><Image src={images.menu1}  height={45} width={90} /></button>
           
           
           
