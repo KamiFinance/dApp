@@ -2,4 +2,4 @@
 
 🚧 👷 This Site is under construction. 👷🚧
 
-Join our [Website](http://kami.finance/) for more information!
+Join our [Website](http://artchain-circle.com/) for more information!
