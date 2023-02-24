@@ -5,7 +5,7 @@ import NextNProgress from "nextjs-progressbar";
 import { NETWORK_ID } from "../const/contractAddresses";
 import "../styles/globals.css";
 import Head from "next/head";
-
+import Header from "../components/NavBar1/NavBar1";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -35,6 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="Artchain Circle, Buy BEP20, NFC Marketplace, NFT Auction, Dao "
         />
       </Head>
+      <Header />
       <Component {...pageProps} />
     </ThirdwebProvider>
   );
