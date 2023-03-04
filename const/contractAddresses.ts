@@ -7,14 +7,14 @@ export const ETHERSCAN_URL = "https://testnet.bscscan.com/";
 export const NETWORK_ID = ChainId.BinanceSmartChainTestnet;
 
 // 2. The address of the marketplace smart contract.
-export const MARKETPLACE_ADDRESS = "0x91f3e57a054B04093d38Db810C095833F1660788";
+export const MARKETPLACE_ADDRESS = "0x21F7e11a47233d4d9E4eCc061360B37dF5EaBEe1";
 
 // 3. The address of NFT collection smart contract.
 export const NFT_COLLECTION_ADDRESS =
   "0x678a45046bc3c233a845ba7c3A77a6cFeE760594";
 
 
-  export const marketplaceContractAddress = '0x583C843DfDec7D0AD9514F45054E489fE618418C';
+  export const marketplaceContractAddress = '0x21F7e11a47233d4d9E4eCc061360B37dF5EaBEe1';
 
 
 // 4. The address of EDITION DROP smart contract.
