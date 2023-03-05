@@ -106,6 +106,7 @@
   letter-spacing: 0.3px;
   line-height: 140%;
   text-align: center;
+  margin-top: 8rem;
   transform: translateY(5px);
   background-color: rgba(245, 245, 245, 0.563);
     border-radius: 12px;
@@ -303,58 +304,7 @@
   margin-bottom: 1em;
 }
 
-/* Screens smaller than 750px */
-@media (max-width: 750px) {
-  .tabs {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-  }
 
-  .tab {
-    width: 100%;
-  }
-
-  .heroTitle {
-  }
-}
-
-/* Less than 640 px */
-@media (max-width: 640px) {
-  .gradient {
-    margin-top: 256px;
-  }
-
-  .heroTitle {
-    margin-top: -48px;
-    font-size: 38px;
-  }
-
-  .heroCtaContainer {
-    flex-direction: column;
-    gap: 0px;
-  }
-
-  .heroAsset {
-    max-height: 270px;
-  }
-}
-
-/* Above 640 and less than 960 */
-@media (min-width: 640px) and (max-width: 960px) {
-  .gradient {
-    margin-top: 196px;
-  }
-
-  .heroTitle {
-    margin-top: -32px;
-    font-size: 60px;
-  }
-
-  .heroAsset {
-    max-height: 540px;
-  }
-}
 
 @keyframes scroll {
   0% {
@@ -371,7 +321,7 @@
   position: relative;
   width: 1000px;
   height: 50px;
-  margin-top: 20rem;
+  margin-top: 30rem;
   
 
   /* before */
@@ -455,105 +405,3 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 100px) and (max-width: 500px) {
-
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-250px * 7));
-    }
-  }
-  .slider {
-    
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: 450px;
-    height: 50px;
-    margin-bottom: -20rem;
-    margin-top: 3rem;
-    
-  
-    /* before */
-  }
-  
-  .slider::before {
-    content: "";
-    height: 100px;
-    position: absolute;
-    width: 200px;
-    z-index: 2;
-    left: 0;
-    top: 0;
-  }
-  
-  .slider::after {
-    content: "";
-    height: 100px;
-    position: absolute;
-    width: 100px;
-    z-index: 2;
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
-  }
-  
-  .slideTrack {
-    animation: scroll 25s linear infinite;
-    display: flex;
-    width: calc(450px * 20);
-  }
-  
-  .slide {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide1 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide2 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide3 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide4 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide5 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide6 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide7 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide8 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-  .slide9 {
-    height: 150px;
-    width: 250px;
-    cursor: pointer;
-  }
-}
