@@ -57,11 +57,14 @@ const Market: NextPage = () => {
                     <h2 className={styles.nameContainer}>
                       <Link href={`/listing/${listing.id}`} className={styles.name}>
                         {listing.asset.name}
+                        <p className={styles.tokenid}>
+                          Token ID:{" "}
+                        {listing.type}</p>
                       </Link>
                     </h2>
 
-                    <p>
-                      <b>{listing.buyoutCurrencyValuePerToken.displayValue}</b>{" "}
+                    <p className={styles.tokenprice} >
+                      <b >{listing.buyoutCurrencyValuePerToken.displayValue}</b>{" "}
                       {listing.buyoutCurrencyValuePerToken.symbol}
                     </p>
                   </div>
@@ -70,6 +73,7 @@ const Market: NextPage = () => {
             )
           }
         </div>
+        
         <Particles id="tsparticles" />
       </div>
     </>
@@ -77,3 +81,4 @@ const Market: NextPage = () => {
 };
 
 export default Market;
+
