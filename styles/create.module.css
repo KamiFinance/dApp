@@ -203,14 +203,22 @@
   
   .name {
     font-size: 1.25rem;
-    color: #fff;
+    color: #020202;
     text-decoration: none;
   }
+
+  .tokenid {
+    color: #000000;
+  }
   
+  .tokenprice {
+    color: #000000;
+  }
+
   .purple {
     color: #9f2c9d;
   }
-  
+ 
   .divider {
     width: 50%;
     border-color: rgb(255, 255, 255);
@@ -256,8 +264,17 @@
     flex-wrap: wrap;
     width: 90vw;
     gap: 1%;
+    
+    
   }
-  
+  .rightListing1 {
+    color: #000000;
+    background-color: #9a9a9a83;
+    padding: 0.4rem;
+    border-radius: 16px;
+    }
+
+
   .listingShortView {
     border-radius: 20px;
     border: rgb(5, 5, 5) 1px solid;
@@ -358,6 +375,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    color: #000000;
   }
   
   /* On Mobile, change .listingContainer to be stacked vertically */
