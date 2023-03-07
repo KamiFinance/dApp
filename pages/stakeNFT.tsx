@@ -75,7 +75,7 @@ import {
   
     return (
       <div className={styles.container}>
-        <h1 className={styles.h1}>Stake Your Membership NFT</h1>
+        <h1 className={styles.h1}>Stake Your Membership NFC</h1>
         <hr className={`${styles.divider} ${styles.spacerTop}`} />
   
         {!address ? (
