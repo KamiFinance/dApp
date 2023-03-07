@@ -64,7 +64,20 @@ const TokenList = ({ tokenDate, setopenTokenBox }) => {
           <div className={Style.mainButton3}>
           <ConnectWallet  />
           </div>
-          
+<div className={Style.mainButton}>
+          <p></p>
+          {address && (
+            <Link  href={`/profile/${address}`}>
+              <Image
+                
+                src="/user-icon1.png"
+                width={42}
+                height={42}
+                alt="Profile"
+              />
+            </Link>
+          )}
+          </div>
           </div>
           
        
