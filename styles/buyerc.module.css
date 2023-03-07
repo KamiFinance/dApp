@@ -40,11 +40,13 @@
   
   .title {
     margin-bottom: 0px;
+    color: #000000 ;
   }
   
   .explain {
     font-size: 1rem;
     font-weight: 600;
+    color: #000000;
   }
   
   .secondaryButton {
