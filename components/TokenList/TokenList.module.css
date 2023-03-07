@@ -100,7 +100,9 @@
     .mainButton3{
         margin-left: 3rem;
       }
-
+    .mainButton{
+        margin-left: 120px;
+      }
     
 }
 
