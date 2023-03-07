@@ -119,8 +119,6 @@
     display: none;
   }
   .profileImage {
-    margin-top: 6px;
-    margin-right: 22px;
-    transition: all 0.15s ease-in-out;
+    display: none;
   }
 }
